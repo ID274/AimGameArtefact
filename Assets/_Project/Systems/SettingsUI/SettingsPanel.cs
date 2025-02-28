@@ -7,6 +7,7 @@ public class SettingsPanel : MonoBehaviour
 {
     [SerializeField] private GameObject panelObject;
     [SerializeField] private FPSController playerController;
+    [SerializeField] private PlayerGun playerGun;
 
     [Header("Sensitivity")]
     [SerializeField] private Slider sensitivitySlider;
@@ -19,9 +20,9 @@ public class SettingsPanel : MonoBehaviour
     private void Start()
     {
         panelObject.SetActive(false);
-        sensitivitySlider.minValue = playerController.minSensitivity;
-        sensitivitySlider.maxValue = playerController.maxSensitivity;
-        sensitivitySlider.value = playerController.Sensitivity;
+        sensitivitySlider.minValue = FPSController.minSensitivity;
+        sensitivitySlider.maxValue = FPSController.maxSensitivity;
+        sensitivitySlider.value = FPSController.Sensitivity;
     }
 
     private void Update()
@@ -36,6 +37,7 @@ public class SettingsPanel : MonoBehaviour
     {
         panelObject.SetActive(!panelObject.activeSelf);
         playerController.enabled = !panelObject.activeSelf;
+        playerGun.enabled = !panelObject.activeSelf;
         Cursor.lockState = panelObject.activeSelf ? CursorLockMode.Confined : CursorLockMode.Locked;
         Cursor.visible = panelObject.activeSelf;
 
@@ -48,12 +50,20 @@ public class SettingsPanel : MonoBehaviour
     private void SaveSettings()
     {
         // Update mouse sensitivity
-        playerController.Sensitivity = sensitivitySlider.value;
+        FPSController.Sensitivity = sensitivitySlider.value;
 
         // Update crosshair colour
         crosshair.color = crosshairChanger.ReturnCurrentColor();
 
         // Update crosshair size
         crosshair.rectTransform.sizeDelta = crosshairChanger.ReturnCurrentSize();
+    }
+
+    public void Continue()
+    {
+        SaveSettings();
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        MySceneManager.Instance.ChangeScene();
     }
 }

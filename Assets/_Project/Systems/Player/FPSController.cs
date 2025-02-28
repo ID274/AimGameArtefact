@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class FPSController : MonoBehaviour
 {
-    public float Sensitivity
+    public static float Sensitivity
     {
         get { return sensitivity; }
         set
@@ -17,9 +17,9 @@ public class FPSController : MonoBehaviour
         }
     }
     [Header("Mouse Movement")]
-    private float sensitivity;
-    [SerializeField] public float minSensitivity { get; private set; }
-    [SerializeField] public float maxSensitivity { get; private set; }
+    private static float sensitivity;
+    [SerializeField] public static float minSensitivity { get; private set; }
+    [SerializeField] public static float maxSensitivity { get; private set; }
 
     [Header("Mouse Rotation")]
     [SerializeField] private float yRotationLimit = 80.0f;
