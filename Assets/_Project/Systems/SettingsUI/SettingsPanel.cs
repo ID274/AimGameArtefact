@@ -57,6 +57,8 @@ public class SettingsPanel : MonoBehaviour
 
         // Update crosshair size
         crosshair.rectTransform.sizeDelta = crosshairChanger.ReturnCurrentSize();
+
+        crosshair.overrideSprite = crosshairChanger.ReturnCurrentSprite();
     }
 
     public void Continue()

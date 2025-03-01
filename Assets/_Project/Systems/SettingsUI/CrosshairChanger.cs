@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,6 +15,11 @@ public class CrosshairChanger : MonoBehaviour
     [Header("Preview Image")]
     [SerializeField] private Sprite crosshairSprite;
     [SerializeField] private Image crosshairPreview;
+
+    [Header("Crosshair Types")]
+    [SerializeField] private Sprite[] crosshairSprites;
+    [SerializeField] private TMP_Dropdown crosshairDropdown;
+
 
     private void Awake()
     {
@@ -40,6 +46,11 @@ public class CrosshairChanger : MonoBehaviour
         crosshairPreview.rectTransform.sizeDelta = NewCrosshairSize();
     }
 
+    public void UpdateCrosshairType()
+    {
+        crosshairPreview.overrideSprite = crosshairSprites[crosshairDropdown.value];
+    }
+
     private Color NewCrosshairColor()
     {
         Color color = new Color(redSlider.value / 255, greenSlider.value / 255, blueSlider.value / 255, alpha);
@@ -60,5 +71,10 @@ public class CrosshairChanger : MonoBehaviour
     public Vector2 ReturnCurrentSize()
     {
         return NewCrosshairSize();
+    }
+
+    public Sprite ReturnCurrentSprite()
+    {
+        return crosshairPreview.overrideSprite;
     }
 }
