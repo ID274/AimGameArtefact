@@ -31,7 +31,7 @@ public class CrosshairChanger : MonoBehaviour
 
     private void Start()
     {
-        crosshairPreview.overrideSprite = crosshairSprite;
+        UpdateCrosshairType();
         UpdateCrosshairColour();
         UpdateCrosshairSize();
     }
