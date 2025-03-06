@@ -26,7 +26,12 @@ public class PostTrialInstructions : MonoBehaviour
 
     private void ShowInstructions()
     {
-        instructionsText.text = "Please send the two files generated in this path to ID274@student.aru.ac.uk: \n" + ExperimentRecorder.folderPath + "\nThe directory will open in a few seconds.";
+        GameObject crosshair = GameObject.FindGameObjectWithTag("Crosshair");
+        if (crosshair != null)
+        {
+            crosshair.SetActive(false);
+        }
+        instructionsText.text = "Please send the two files generated in this path to ID274@student.aru.ac.uk: \n\n" + ExperimentRecorder.folderPath + "\n\nThe directory will open in a few seconds.";
         instructionsPanel.SetActive(true);
         StartCoroutine(OpenDirectory(5));
     }

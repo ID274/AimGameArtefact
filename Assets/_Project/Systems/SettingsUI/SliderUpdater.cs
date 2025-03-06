@@ -15,6 +15,13 @@ public class SliderUpdater : MonoBehaviour
     }
     public void UpdateSliderText()
     {
-        sliderText.text = slider.value.ToString("0.00");
+        if (slider.wholeNumbers)
+        {
+            sliderText.text = slider.value.ToString();
+        }
+        else
+        {
+            sliderText.text = slider.value.ToString("F2");
+        }
     }
 }

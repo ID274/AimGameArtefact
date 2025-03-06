@@ -10,14 +10,11 @@ public class ExperimentRecorder : MonoBehaviour
 
     [SerializeField] private List<ShotData> shotDataList = new List<ShotData>();
 
-    private static Guid guid;
-
     public static string folderPath;
     public static string folderName;
 
     private void Awake()
     {
-        guid = Guid.NewGuid();
         folderPath = Application.persistentDataPath;
         folderName = "ExperimentData";
         folderPath += $"/{folderName}";
@@ -60,7 +57,7 @@ public class ExperimentRecorder : MonoBehaviour
 
     private void SaveShotData()
     {
-        string path = folderPath + $"/shotData_{DateTime.Now.ToString($"yyyyMMMdd_HHmmss")}_{guid.ToString()}.txt";
+        string path = folderPath + $"/shotData_{DateTime.Now.ToString($"yyyyMMMdd_HHmmss")}.txt";
         string stringToSave = "";
         for (int i = 0; i < shotDataList.Count; i++)
         {
@@ -73,7 +70,7 @@ public class ExperimentRecorder : MonoBehaviour
 
     private void CreateAverageData()
     {
-        string path = folderPath + $"/averageData_{DateTime.Now.ToString($"yyyyMMMdd_HHmmss")}_{guid.ToString()}.txt";
+        string path = folderPath + $"/averageData_{DateTime.Now.ToString($"yyyyMMMdd_HHmmss")}.txt";
         string stringToSave = "";
         float averageTimeSinceLastShot = 0;
         float sensitivity = shotDataList[0].sensitivity;

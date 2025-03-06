@@ -7,6 +7,7 @@ public class PlayerGun : MonoBehaviour
     private const string destructibleTag = "Destructible";
 
     private Camera mainCamera;
+    private SoundPlayer soundPlayer;
 
     [Header("Gun Settings")]
     [SerializeField] private float minTimeBetweenShots = 0.2f;
@@ -17,6 +18,7 @@ public class PlayerGun : MonoBehaviour
     private void Awake()
     {
         mainCamera = Camera.main;
+        soundPlayer = GetComponent<SoundPlayer>();
     }
 
     private void Update()
@@ -30,6 +32,7 @@ public class PlayerGun : MonoBehaviour
     }
     private void Shoot()
     {
+        soundPlayer.PlaySound("Gunshot");
         Debug.Log($"Shot fired at {Time.time}");
         bool shotHit = false;
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
