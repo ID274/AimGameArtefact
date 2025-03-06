@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,6 +20,9 @@ public class CrosshairChanger : MonoBehaviour
     [Header("Crosshair Types")]
     [SerializeField] private Sprite[] crosshairSprites;
     [SerializeField] private TMP_Dropdown crosshairDropdown;
+
+    public static CrosshairTypeEnum crosshairType = CrosshairTypeEnum.Cross;
+    public static float crosshairSize = 1;
 
 
     private void Awake()
@@ -44,11 +48,25 @@ public class CrosshairChanger : MonoBehaviour
     public void UpdateCrosshairSize()
     {
         crosshairPreview.rectTransform.sizeDelta = NewCrosshairSize();
+        crosshairSize = sizeSlider.value;
     }
 
     public void UpdateCrosshairType()
     {
         crosshairPreview.overrideSprite = crosshairSprites[crosshairDropdown.value];
+
+        switch (crosshairDropdown.value)
+        {
+            case 0:
+                crosshairType = CrosshairTypeEnum.Cross;
+                break;
+            case 1:
+                crosshairType = CrosshairTypeEnum.Dot;
+                break;
+            case 2:
+                crosshairType = CrosshairTypeEnum.DotSquare;
+                break;
+        }
     }
 
     private Color NewCrosshairColor()
