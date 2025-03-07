@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.IO;
+using Unity.VisualScripting;
 
 public class ExperimentRecorder : MonoBehaviour
 {
@@ -61,10 +62,10 @@ public class ExperimentRecorder : MonoBehaviour
         string stringToSave = "";
         for (int i = 0; i < shotDataList.Count; i++)
         {
-            stringToSave += $"Shot number: {i + 1},\nHit: {shotDataList[i].hit},\nTime since last shot: {shotDataList[i].timeSinceLastShot},\nMouse Sensitivity: {shotDataList[i].sensitivity},\nCrosshair Type: {shotDataList[i].crosshairType}\nCrosshair Size: {shotDataList[i].crosshairSize}\n\n";
+            stringToSave += $"Shot number: {i + 1},\nHit: {shotDataList[i].hit},\nTime since last shot: {shotDataList[i].timeSinceLastShot},\nMouse Sensitivity: {shotDataList[i].sensitivity},\nCrosshair Type: {shotDataList[i].crosshairType}\nCrosshair Size: {shotDataList[i].crosshairSize},\nCamera FOV: {shotDataList[i].fieldOfView}\n\n";
         }
 
-        System.IO.File.WriteAllText(path, stringToSave);
+        File.WriteAllText(path, stringToSave);
         Debug.Log($"Data saved to {path}");
     }
 
@@ -76,6 +77,7 @@ public class ExperimentRecorder : MonoBehaviour
         float sensitivity = shotDataList[0].sensitivity;
         CrosshairTypeEnum crosshairType = shotDataList[0].crosshairType;
         float crosshairSize = shotDataList[0].crosshairSize;
+        int FOV = shotDataList[0].fieldOfView;
         float accuracy = 0;
 
         for (int i = 0; i < shotDataList.Count; i++)
@@ -90,8 +92,8 @@ public class ExperimentRecorder : MonoBehaviour
         averageTimeSinceLastShot /= shotDataList.Count;
         accuracy /= shotDataList.Count;
 
-        stringToSave = $"Total shots: {shotDataList.Count},\nMouse sensitivity: {sensitivity},\nCrosshair Type: {crosshairType},\nCrosshair Size: {crosshairSize},\nAverage accuracy: {accuracy},\nAverage time since last shot: {averageTimeSinceLastShot}";
-        System.IO.File.WriteAllText(path, stringToSave);
+        stringToSave = $"Total shots: {shotDataList.Count},\nMouse sensitivity: {sensitivity},\nCrosshair Type: {crosshairType},\nCrosshair Size: {crosshairSize},\nAverage accuracy: {accuracy},\nAverage time since last shot: {averageTimeSinceLastShot},\nCamera FOV: {FOV}";
+        File.WriteAllText(path, stringToSave);
         Debug.Log($"Data saved to {path}");
     }
 }

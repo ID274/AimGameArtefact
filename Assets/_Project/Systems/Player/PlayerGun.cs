@@ -56,7 +56,7 @@ public class PlayerGun : MonoBehaviour
 
         if (ExperimentRecorder.Instance != null)
         {
-            ExperimentRecorder.Instance.RecordShotData(new ShotData(shotHit, timeSinceLastShot, FPSController.Sensitivity, CrosshairChanger.crosshairType, CrosshairChanger.crosshairSize));
+            ExperimentRecorder.Instance.RecordShotData(new ShotData(shotHit, timeSinceLastShot, FPSController.Sensitivity, CrosshairChanger.crosshairType, CrosshairChanger.crosshairSize, CameraSettings.currentFOV));
         }
         timeSinceLastShot = 0;
     }
