@@ -8,8 +8,8 @@ public class TrialScore : MonoBehaviour
     private Animator animator;
     private TextMeshProUGUI scoreText;
 
-    private int score = 0;
-    public int Score
+    public static int score = 0;
+    public static int Score
     {
         get
         {

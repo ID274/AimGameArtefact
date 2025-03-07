@@ -92,7 +92,7 @@ public class ExperimentRecorder : MonoBehaviour
         averageTimeSinceLastShot /= shotDataList.Count;
         accuracy /= shotDataList.Count;
 
-        stringToSave = $"Total shots: {shotDataList.Count},\nMouse sensitivity: {sensitivity},\nCrosshair Type: {crosshairType},\nCrosshair Size: {crosshairSize},\nAverage accuracy: {accuracy},\nAverage time since last shot: {averageTimeSinceLastShot},\nCamera FOV: {FOV}";
+        stringToSave = $"Total shots: {shotDataList.Count},\nTotal score: {TrialScore.Score},\nMouse sensitivity: {sensitivity},\nCrosshair Type: {crosshairType},\nCrosshair Size: {crosshairSize},\nAverage accuracy: {accuracy},\nAverage time since last shot: {averageTimeSinceLastShot},\nCamera FOV: {FOV}";
         File.WriteAllText(path, stringToSave);
         Debug.Log($"Data saved to {path}");
     }
