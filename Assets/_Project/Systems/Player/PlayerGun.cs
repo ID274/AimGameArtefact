@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,8 @@ public class PlayerGun : MonoBehaviour
     [Header("Gun Settings")]
     [SerializeField] private float minTimeBetweenShots = 0.2f;
     [SerializeField] private bool shotReady = true;
+
+    public static Action OnShotHit;
 
     private float timeSinceLastShot = 0;
 
@@ -47,6 +50,7 @@ public class PlayerGun : MonoBehaviour
                 }
                 Destroy(hit.collider.gameObject);
                 shotHit = true;
+                OnShotHit?.Invoke();
             }
         }
         if (!shotHit)
