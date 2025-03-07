@@ -41,6 +41,10 @@ public class PlayerGun : MonoBehaviour
             if (hit.collider.CompareTag(destructibleTag))
             {
                 Debug.Log($"Hit {hit.collider.gameObject.name}");
+                if (hit.collider.gameObject.TryGetComponent(out PlaySoundOnDeath deathSound))
+                {
+                    deathSound.PlayDestroySound();
+                }
                 Destroy(hit.collider.gameObject);
                 shotHit = true;
             }

@@ -1,33 +1,18 @@
 using UnityEngine;
 
+[RequireComponent(typeof(SoundPlayer))]
 public class PlaySoundOnDeath : MonoBehaviour
 {
-    private bool applicationQuitting = false;
     [SerializeField] private string soundName = "TEMP";
-    private void OnApplicationQuit()
+
+    public void PlayDestroySound()
     {
-        applicationQuitting = true;
-    }
-
-    private void OnDestroy()
-    {
-        if (applicationQuitting) return;
-
-
+        GameObject soundObject = new GameObject(soundName);
+        SoundPlayer soundPlayer = soundObject.AddComponent<SoundPlayer>();
         AudioClip soundClip = AudioLibrary.Instance.GrabSound(soundName);
         float soundLength = soundClip != null ? soundClip.length : 0;
-
-        GameObject soundObject = new GameObject("SoundObject");
-        SoundPlayer soundPlayer = soundObject.AddComponent<SoundPlayer>();
-
-        if (soundLength > 0)
-        {
-            soundPlayer.StartCoroutine(soundPlayer.DestroyAfterDelay(soundObject, soundLength));
-        }
-        else
-        {
-            Debug.LogWarning("Sound length is 0, sound will not be destroyed");
-        }
+        soundPlayer.delayTime = soundLength;
+        soundPlayer.destroyAfterPlaying = true;
         soundPlayer.PlaySound(soundName);
     }
 }

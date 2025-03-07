@@ -2553,6 +2553,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1125187275302600788, guid: 6047009409d08a349a168009e846c38b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2824106621862844918, guid: 6047009409d08a349a168009e846c38b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3835,6 +3840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   randomizePitch: 1
   pitchRange: 0.05
+  delayTime: 1
   destroyAfterPlaying: 0
 --- !u!1 &1655268183
 GameObject:
