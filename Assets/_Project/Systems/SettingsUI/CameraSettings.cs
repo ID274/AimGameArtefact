@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,7 +11,9 @@ public class CameraSettings : MonoBehaviour
     private const int minFOV = 40;
     private const int maxFOV = 120;
 
-    [SerializeField] private Slider fovSlider;
+    public Slider fovSlider;
+
+    public static event Action OnFOVChange;
 
     private void Awake()
     {
@@ -28,5 +31,6 @@ public class CameraSettings : MonoBehaviour
     {
         _camera.fieldOfView = fovSlider.value;
         currentFOV = (int)fovSlider.value;
+        OnFOVChange?.Invoke();
     }
 }

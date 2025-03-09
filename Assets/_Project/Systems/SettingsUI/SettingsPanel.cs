@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,10 +20,11 @@ public class SettingsPanel : MonoBehaviour
 
     private void Start()
     {
-        panelObject.SetActive(false);
+        StartCoroutine(TogglePanelOnStart());
         sensitivitySlider.minValue = FPSController.minSensitivity;
         sensitivitySlider.maxValue = FPSController.maxSensitivity;
         sensitivitySlider.value = FPSController.Sensitivity;
+        LoadPlayerPrefsFloat();
     }
 
     private void Update()
@@ -31,6 +33,23 @@ public class SettingsPanel : MonoBehaviour
         {
             TogglePanel();
         }
+    }
+
+    private IEnumerator TogglePanelOnStart()
+    {
+        yield return new WaitForSeconds(0.1f);
+        TogglePanel();
+        TogglePanel(); // we turn it off and on again to ensure the player can't shoot while its open
+    }
+
+    private void OnEnable()
+    {
+        CameraSettings.OnFOVChange += HandleFOVChange;
+    }
+
+    private void OnDisable()
+    {
+        CameraSettings.OnFOVChange -= HandleFOVChange;
     }
 
     private void TogglePanel()
@@ -59,6 +78,13 @@ public class SettingsPanel : MonoBehaviour
         crosshair.rectTransform.sizeDelta = crosshairChanger.ReturnCurrentSize();
 
         crosshair.overrideSprite = crosshairChanger.ReturnCurrentSprite();
+
+        SavePlayerPrefsFloat("Sensitivity");
+    }
+
+    private void HandleFOVChange()
+    {
+        SavePlayerPrefsFloat("FOV");
     }
 
     public void Continue()
@@ -67,5 +93,54 @@ public class SettingsPanel : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         MySceneManager.Instance.ChangeScene();
+    }
+
+    private void SavePlayerPrefsFloat(string prefToSave)
+    {
+        float value = 0;
+        
+        switch (prefToSave)
+        {
+            case "Sensitivity":
+                value = sensitivitySlider.value;
+                break;
+            case "FOV":
+                value = CameraSettings.currentFOV;
+                break;
+        }
+
+        PlayerPrefs.SetFloat(prefToSave, value);
+    }
+
+    private void LoadPlayerPrefsFloat()
+    {
+        if (PlayerPrefs.HasKey("Sensitivity"))
+        {
+            sensitivitySlider.value = PlayerPrefs.GetFloat("Sensitivity");
+            sensitivitySlider.interactable = false; // disable slider to ensure same sensitivity between playthroughs
+        }
+        else
+        {
+            SavePlayerPrefsFloat("Sensitivity");
+        }
+
+        if (PlayerPrefs.HasKey("FOV"))
+        {
+            CameraSettings camSettings = FindObjectOfType<CameraSettings>();
+
+            if (camSettings != null)
+            {
+                camSettings.fovSlider.interactable = false;
+                camSettings.fovSlider.value = PlayerPrefs.GetFloat("FOV");
+            }
+            else
+            {
+                Debug.LogError("CameraSettings script not found in scene");
+            }
+        }
+        else
+        {
+            SavePlayerPrefsFloat("FOV");
+        }
     }
 }
