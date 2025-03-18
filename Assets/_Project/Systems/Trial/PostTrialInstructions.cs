@@ -6,7 +6,7 @@ using UnityEngine;
 public class PostTrialInstructions : MonoBehaviour
 {
     [SerializeField] private GameObject instructionsPanel;
-    [SerializeField] private TextMeshProUGUI instructionsText;
+    [TextArea][SerializeField] private TextMeshProUGUI instructionsText;
 
     private void Awake()
     {
@@ -31,9 +31,17 @@ public class PostTrialInstructions : MonoBehaviour
         {
             crosshair.SetActive(false);
         }
-        instructionsText.text = "Final score: " + TrialScore.Score + "\n\nPlease send the two files generated in this path to ID274@student.aru.ac.uk: \n\n" + ExperimentRecorder.folderPath + "\n\nThe directory will open in a few seconds.";
+
+        if (SettingsPanel.firstRun)
+        {
+            instructionsText.text = $"Final score: {TrialScore.Score}. \n\nPlease restart the application to complete your second run.";
+        }
+        else
+        {
+            instructionsText.text = $"Final score: {TrialScore.Score}. \n\nThank you for participating!";
+        }
         instructionsPanel.SetActive(true);
-        StartCoroutine(OpenDirectory(5));
+        //StartCoroutine(OpenDirectory(5));
     }
 
     private IEnumerator OpenDirectory(int secondsDelay)

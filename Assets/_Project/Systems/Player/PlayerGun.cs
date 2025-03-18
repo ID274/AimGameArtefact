@@ -48,7 +48,14 @@ public class PlayerGun : MonoBehaviour
                 {
                     deathSound.PlayDestroySound();
                 }
-                Destroy(hit.collider.gameObject);
+                if (hit.collider.gameObject.TryGetComponent(out RespawnObject respawnObject))
+                {
+                    respawnObject.StartRespawn();
+                }
+                else
+                {
+                    Destroy(hit.collider.gameObject);
+                }
                 shotHit = true;
                 OnShotHit?.Invoke();
             }

@@ -18,6 +18,8 @@ public class SettingsPanel : MonoBehaviour
     [Header("Crosshair")]
     [SerializeField] private CrosshairChanger crosshairChanger;
 
+    public static bool firstRun = true;
+
     private void Start()
     {
         StartCoroutine(TogglePanelOnStart());
@@ -114,10 +116,12 @@ public class SettingsPanel : MonoBehaviour
 
     private void LoadPlayerPrefsFloat()
     {
+        int checkingNum = 0;
         if (PlayerPrefs.HasKey("Sensitivity"))
         {
             sensitivitySlider.value = PlayerPrefs.GetFloat("Sensitivity");
             sensitivitySlider.interactable = false; // disable slider to ensure same sensitivity between playthroughs
+            checkingNum++;
         }
         else
         {
@@ -132,6 +136,7 @@ public class SettingsPanel : MonoBehaviour
             {
                 camSettings.fovSlider.interactable = false;
                 camSettings.fovSlider.value = PlayerPrefs.GetFloat("FOV");
+                checkingNum++;
             }
             else
             {
@@ -141,6 +146,15 @@ public class SettingsPanel : MonoBehaviour
         else
         {
             SavePlayerPrefsFloat("FOV");
+        }
+
+        if (checkingNum >= 2)
+        {
+            firstRun = false;
+        }
+        else
+        {
+            firstRun = true;
         }
     }
 }
