@@ -2,6 +2,8 @@ import pandas as pd
 import glob
 from pathlib import Path
 
+# Disclaimer - this script was created by AI (Claude 3.7 Sonnet). It is not to be used in the final submission, it was just used as a tool to extract the data from the text file format.
+
 # Define the base directory for data files
 base_dir = Path("data")
 
