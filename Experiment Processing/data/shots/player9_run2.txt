@@ -1,0 +1,576 @@
+Shot number: 1,
+Hit: True,
+Time since last shot: 9.82404,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 2,
+Hit: True,
+Time since last shot: 0.283317,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 3,
+Hit: False,
+Time since last shot: 0.2333853,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 4,
+Hit: True,
+Time since last shot: 0.3166918,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 5,
+Hit: True,
+Time since last shot: 0.4331994,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 6,
+Hit: False,
+Time since last shot: 0.3500499,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 7,
+Hit: True,
+Time since last shot: 0.2499851,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 8,
+Hit: False,
+Time since last shot: 0.2499538,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 9,
+Hit: True,
+Time since last shot: 0.2333675,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 10,
+Hit: False,
+Time since last shot: 0.2000551,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 11,
+Hit: False,
+Time since last shot: 0.2167171,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 12,
+Hit: True,
+Time since last shot: 0.2999112,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 13,
+Hit: False,
+Time since last shot: 0.2999431,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 14,
+Hit: True,
+Time since last shot: 0.3332843,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 15,
+Hit: True,
+Time since last shot: 0.716723,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 16,
+Hit: True,
+Time since last shot: 0.349998,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 17,
+Hit: False,
+Time since last shot: 0.316658,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 18,
+Hit: True,
+Time since last shot: 0.4001602,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 19,
+Hit: True,
+Time since last shot: 0.4332016,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 20,
+Hit: True,
+Time since last shot: 0.3500076,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 21,
+Hit: True,
+Time since last shot: 0.9999655,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 22,
+Hit: True,
+Time since last shot: 0.649957,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 23,
+Hit: True,
+Time since last shot: 0.5667719,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 24,
+Hit: True,
+Time since last shot: 0.2500331,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 25,
+Hit: True,
+Time since last shot: 0.6832865,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 26,
+Hit: True,
+Time since last shot: 0.3833347,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 27,
+Hit: True,
+Time since last shot: 0.399943,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 28,
+Hit: True,
+Time since last shot: 0.8000785,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 29,
+Hit: True,
+Time since last shot: 0.4999869,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 30,
+Hit: False,
+Time since last shot: 0.333194,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 31,
+Hit: True,
+Time since last shot: 0.3167379,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 32,
+Hit: True,
+Time since last shot: 0.3332336,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 33,
+Hit: False,
+Time since last shot: 0.2000517,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 34,
+Hit: False,
+Time since last shot: 0.2500551,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 35,
+Hit: True,
+Time since last shot: 0.3342356,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 36,
+Hit: True,
+Time since last shot: 0.2664,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 37,
+Hit: True,
+Time since last shot: 0.7326865,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 38,
+Hit: True,
+Time since last shot: 0.3999715,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 39,
+Hit: True,
+Time since last shot: 0.8999563,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 40,
+Hit: True,
+Time since last shot: 0.3333167,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 41,
+Hit: True,
+Time since last shot: 0.5501165,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 42,
+Hit: True,
+Time since last shot: 0.6665806,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 43,
+Hit: True,
+Time since last shot: 0.6166319,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 44,
+Hit: True,
+Time since last shot: 0.2666825,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 45,
+Hit: True,
+Time since last shot: 0.3833205,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 46,
+Hit: False,
+Time since last shot: 0.3000534,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 47,
+Hit: True,
+Time since last shot: 0.2166337,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 48,
+Hit: True,
+Time since last shot: 0.383371,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 49,
+Hit: True,
+Time since last shot: 0.3832547,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 50,
+Hit: True,
+Time since last shot: 0.9166916,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 51,
+Hit: True,
+Time since last shot: 0.2833502,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 52,
+Hit: True,
+Time since last shot: 0.6333339,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 53,
+Hit: True,
+Time since last shot: 0.46659,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 54,
+Hit: True,
+Time since last shot: 0.3001111,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 55,
+Hit: True,
+Time since last shot: 0.4331981,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 56,
+Hit: True,
+Time since last shot: 0.6667349,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 57,
+Hit: True,
+Time since last shot: 0.5166985,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 58,
+Hit: True,
+Time since last shot: 0.266696,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 59,
+Hit: False,
+Time since last shot: 0.2666518,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 60,
+Hit: True,
+Time since last shot: 0.466602,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 61,
+Hit: True,
+Time since last shot: 0.3666277,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 62,
+Hit: True,
+Time since last shot: 0.3999991,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 63,
+Hit: True,
+Time since last shot: 0.4166988,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 64,
+Hit: True,
+Time since last shot: 0.383341,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 65,
+Hit: False,
+Time since last shot: 0.3833089,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 66,
+Hit: False,
+Time since last shot: 0.4833175,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 67,
+Hit: True,
+Time since last shot: 0.2333177,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 68,
+Hit: True,
+Time since last shot: 0.6999802,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 69,
+Hit: True,
+Time since last shot: 0.2999903,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 70,
+Hit: True,
+Time since last shot: 0.2999662,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 71,
+Hit: True,
+Time since last shot: 0.4167266,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+
+Shot number: 72,
+Hit: True,
+Time since last shot: 0.2666829,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Dot
+Crosshair Size: 1,
+Camera FOV: 60
+

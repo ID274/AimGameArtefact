@@ -1,0 +1,8 @@
+Total shots: 78,
+Total score: 58,
+Mouse sensitivity: 4.3,
+Crosshair Type: Cross,
+Crosshair Size: 0.5,
+Average accuracy: 0.7435898,
+Average time since last shot: 0.3864146,
+Camera FOV: 75

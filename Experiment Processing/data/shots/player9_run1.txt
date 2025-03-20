@@ -1,0 +1,552 @@
+Shot number: 1,
+Hit: True,
+Time since last shot: 25.90659,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 2,
+Hit: True,
+Time since last shot: 0.6335456,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 3,
+Hit: False,
+Time since last shot: 0.3830463,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 4,
+Hit: True,
+Time since last shot: 0.450002,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 5,
+Hit: True,
+Time since last shot: 0.6834034,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 6,
+Hit: True,
+Time since last shot: 0.3999847,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 7,
+Hit: True,
+Time since last shot: 0.6832715,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 8,
+Hit: True,
+Time since last shot: 0.6000415,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 9,
+Hit: True,
+Time since last shot: 0.4665788,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 10,
+Hit: False,
+Time since last shot: 0.6834313,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 11,
+Hit: True,
+Time since last shot: 0.9333301,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 12,
+Hit: True,
+Time since last shot: 1.049941,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 13,
+Hit: True,
+Time since last shot: 0.766664,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 14,
+Hit: True,
+Time since last shot: 0.3833014,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 15,
+Hit: True,
+Time since last shot: 0.5000371,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 16,
+Hit: True,
+Time since last shot: 0.2667224,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 17,
+Hit: True,
+Time since last shot: 0.6832253,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 18,
+Hit: True,
+Time since last shot: 0.4499634,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 19,
+Hit: True,
+Time since last shot: 0.3334845,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 20,
+Hit: True,
+Time since last shot: 0.249929,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 21,
+Hit: True,
+Time since last shot: 0.3666348,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 22,
+Hit: False,
+Time since last shot: 0.7666737,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 23,
+Hit: True,
+Time since last shot: 0.3499216,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 24,
+Hit: True,
+Time since last shot: 0.5001142,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 25,
+Hit: True,
+Time since last shot: 0.4164707,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 26,
+Hit: False,
+Time since last shot: 0.4501345,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 27,
+Hit: True,
+Time since last shot: 0.3666928,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 28,
+Hit: True,
+Time since last shot: 0.3666531,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 29,
+Hit: True,
+Time since last shot: 0.3833313,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 30,
+Hit: True,
+Time since last shot: 0.4000249,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 31,
+Hit: True,
+Time since last shot: 0.5000106,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 32,
+Hit: True,
+Time since last shot: 0.5333628,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 33,
+Hit: False,
+Time since last shot: 0.3832433,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 34,
+Hit: True,
+Time since last shot: 0.3999105,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 35,
+Hit: True,
+Time since last shot: 0.3334988,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 36,
+Hit: False,
+Time since last shot: 0.2333643,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 37,
+Hit: True,
+Time since last shot: 0.4331493,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 38,
+Hit: True,
+Time since last shot: 0.4334283,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 39,
+Hit: True,
+Time since last shot: 0.3833169,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 40,
+Hit: False,
+Time since last shot: 0.4999853,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 41,
+Hit: False,
+Time since last shot: 0.5166306,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 42,
+Hit: True,
+Time since last shot: 0.3666553,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 43,
+Hit: True,
+Time since last shot: 0.4666974,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 44,
+Hit: False,
+Time since last shot: 0.4499339,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 45,
+Hit: False,
+Time since last shot: 0.4166967,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 46,
+Hit: True,
+Time since last shot: 0.3332736,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 47,
+Hit: False,
+Time since last shot: 0.4666901,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 48,
+Hit: True,
+Time since last shot: 0.2500867,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 49,
+Hit: True,
+Time since last shot: 0.2166364,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 50,
+Hit: True,
+Time since last shot: 0.3167203,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 51,
+Hit: True,
+Time since last shot: 0.3332685,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 52,
+Hit: True,
+Time since last shot: 0.2999702,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 53,
+Hit: False,
+Time since last shot: 0.5498756,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 54,
+Hit: True,
+Time since last shot: 0.3332429,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 55,
+Hit: False,
+Time since last shot: 0.3333497,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 56,
+Hit: True,
+Time since last shot: 0.3833024,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 57,
+Hit: False,
+Time since last shot: 0.383353,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 58,
+Hit: False,
+Time since last shot: 0.2002751,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 59,
+Hit: False,
+Time since last shot: 0.2499593,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 60,
+Hit: True,
+Time since last shot: 0.3665966,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 61,
+Hit: False,
+Time since last shot: 0.5332952,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 62,
+Hit: True,
+Time since last shot: 0.3167602,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 63,
+Hit: True,
+Time since last shot: 0.2000025,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 64,
+Hit: True,
+Time since last shot: 0.4499806,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 65,
+Hit: True,
+Time since last shot: 0.366641,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 66,
+Hit: False,
+Time since last shot: 0.2000221,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 67,
+Hit: False,
+Time since last shot: 0.3499936,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 68,
+Hit: False,
+Time since last shot: 0.3833306,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
+Shot number: 69,
+Hit: True,
+Time since last shot: 0.2832689,
+Mouse Sensitivity: 3.785715,
+Crosshair Type: Cross
+Crosshair Size: 0.779762,
+Camera FOV: 60
+
